@@ -14,7 +14,11 @@
     </div>
 </div>
 
-{#each data.settings as item}
-    <label for="status" class="block text-sm font-medium text-gray-700 mb-1 capitalize">{item.key.replaceAll('_', ' ')}</label>
-    <input type="text" class={baseClasses} bind:value={item.value} />
-{/each}
+<div class="bg-white shadow sm:rounded-lg">
+    <div class="px-4 py-5 sm:p-6">
+        {#each data.settings as item}
+            <label for="status" class="block text-sm font-medium text-gray-700 mb-1 capitalize">{item.key.replaceAll('_', ' ')}</label>
+            <input type="text" class={baseClasses} bind:value={item.value} />
+        {/each}
+    </div>
+</div>
