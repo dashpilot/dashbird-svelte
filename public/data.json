@@ -6,5 +6,9 @@
     "pages": [
         { "id": 1, "title": "Home", "slug": "home" },
         { "id": 2, "title": "About", "slug": "about" }
+    ],
+    "settings": [
+        { "key": "title", "value": "My site" },
+        { "key": "description", "value": "" }
     ]
 }
