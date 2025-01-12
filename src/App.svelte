@@ -52,7 +52,7 @@
 
 <div class="min-h-screen flex bg-gray-100">
     <!-- Sidebar -->
-    <aside class="bg-gray-800 w-64 flex flex-col fixed h-full">
+    <aside class="bg-gray-800 w-64 flex flex-col fixed h-full" id="sidebar">
         <div class="p-4">
             <h1 class="text-white text-2xl font-bold pl-2">DashBird CMS</h1>
         </div>
@@ -107,7 +107,7 @@
     </aside>
 
     <!-- Main Content -->
-    <div class="flex-1 ml-64">
+    <div class="flex-1 ml-64" id="main">
         <!-- Header -->
         <header class="bg-white shadow-sm">
             <div class="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8 flex justify-between items-center">

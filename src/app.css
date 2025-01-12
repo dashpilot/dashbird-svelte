@@ -64,3 +64,13 @@
   color: #495057;
   background-color: #fff;
 }
+
+@media only screen and (max-width: 1100px) {
+  #sidebar {
+    display: none !important;
+  }
+
+  #main {
+    margin-left: 0;
+  }
+}
