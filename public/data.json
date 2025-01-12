@@ -1,0 +1,10 @@
+{
+    "posts": [
+        { "id": 1, "page": "home", "title": "Hello world", "body": "Lorem ipsum dolor site amet" },
+        { "id": 2, "page": "about", "title": "Second post", "body": "Lorem ipsum dolor site amet" }
+    ],
+    "pages": [
+        { "id": 1, "title": "Home", "slug": "home" },
+        { "id": 2, "title": "About", "slug": "about" }
+    ]
+}
