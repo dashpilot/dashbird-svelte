@@ -113,10 +113,12 @@
             <div class="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8 flex justify-between items-center">
                 <h2 class="text-xl font-semibold text-gray-800">Dashboard</h2>
                 <div class="flex items-center">
+                    <!--
                     <button class="flex items-center text-gray-500 hover:text-gray-700">
                         <span class="mr-2">John Doe</span>
                         <div class="h-8 w-8 rounded-full bg-indigo-500"></div>
                     </button>
+                    -->
                 </div>
             </div>
         </header>
