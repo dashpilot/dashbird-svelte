@@ -50,20 +50,20 @@
     });
 </script>
 
-<div class="min-h-screen flex bg-gray-50">
+<div class="min-h-screen flex bg-gray-100">
     <!-- Sidebar -->
     <aside class="bg-gray-800 w-64 flex flex-col fixed h-full">
         <div class="p-4">
             <h1 class="text-white text-2xl font-bold pl-2">DashBird CMS</h1>
         </div>
         <nav class="flex-1 px-2 py-4">
-            <a href="/" data-navigo class="flex items-center px-4 py-2 text-gray-100 hover:bg-gray-700 rounded-lg mb-1" active-class="bg-gray-700">
+            <a href="/" data-navigo class="flex items-center px-4 py-2 text-gray-100 hover:bg-gray-700 rounded-lg mb-1 {route === 'dashboard' ? 'bg-gray-700' : ''}">
                 <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
                 </svg>
                 Dashboard
             </a>
-            <a href="/posts" data-navigo class="flex items-center px-4 py-2 text-gray-100 hover:bg-gray-700 rounded-lg mb-1">
+            <a href="/posts" data-navigo class="flex items-center px-4 py-2 text-gray-100 hover:bg-gray-700 rounded-lg mb-1 {route === 'posts' ? 'bg-gray-700' : ''}">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 mr-3">
                     <path d="M13.4 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7.4" />
                     <path d="M2 6h4" />
@@ -75,7 +75,7 @@
                 Posts
             </a>
 
-            <a href="/pages" data-navigo class="flex items-center px-4 py-2 text-gray-100 hover:bg-gray-700 rounded-lg mb-1" active-class="bg-gray-700">
+            <a href="/pages" data-navigo class="flex items-center px-4 py-2 text-gray-100 hover:bg-gray-700 rounded-lg mb-1 {route === 'pages' ? 'bg-gray-700' : ''}">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 mr-3">
                     <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
                     <path d="M14 2v4a2 2 0 0 0 2 2h4" />
@@ -91,7 +91,7 @@
               Users
           </a>
           -->
-            <a href="/settings" data-navigo class="flex items-center px-4 py-2 text-gray-100 hover:bg-gray-700 rounded-lg" active-class="bg-gray-700">
+            <a href="/settings" data-navigo class="flex items-center px-4 py-2 text-gray-100 hover:bg-gray-700 rounded-lg {route === 'settings' ? 'bg-gray-700' : ''}">
                 <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path
                         stroke-linecap="round"
